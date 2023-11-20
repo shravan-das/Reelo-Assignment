@@ -1,56 +1,68 @@
-Question Paper Generator
+## Question Paper Generator
 
-Setup:
+### Setup:
 
-1. Install Node.js:
-   - Download and install Node.js from nodejs.org.
+1. **Install Node.js:**
+   - Download and install Node.js from [nodejs.org](https://nodejs.org).
 
-2. Clone the Repository:
-   git clone https://github.com/your-username/question-paper-generator.git
+2. **Clone the Repository:**
+git clone https://github.com/your-username/question-paper-generator.git
 
-3. Navigate to the Project Directory:
-   cd question-paper-generator
+markdown
+Copy code
 
-4. Install Dependencies:
-   npm install
+3. **Navigate to the Project Directory:**
+cd question-paper-generator
 
-Usage:
+markdown
+Copy code
 
-1. Start the Application:
-   npm start
-   This will start the server on http://localhost:3000.
+4. **Install Dependencies:**
+npm install
 
-2. Access the Generator:
-   Open your web browser and go to http://localhost:3000 to access the Question Paper Generator.
+markdown
+Copy code
 
-3. Fill in the Form:
-   - Total Marks
-   - Easy Percentage
-   - Medium Percentage
-   - Hard Percentage
+### Usage:
 
-4. Generate Question Paper:
-   Click the "Generate Question Paper" button to receive a dynamically generated question paper.
+1. **Start the Application:**
+npm start
 
-Files:
+markdown
+Copy code
+This will start the server on http://localhost:3000.
 
-- index.js: Node.js server code.
-- question.js: Sample question store in JSON format.
-- public/index.html: HTML form for user input and displaying the generated question paper.
+2. **Access the Generator:**
+Open your web browser and go to http://localhost:3000 to access the Question Paper Generator.
 
-Customization:
+3. **Fill in the Form:**
+- Total Marks
+- Easy Percentage
+- Medium Percentage
+- Hard Percentage
+
+4. **Generate Question Paper:**
+Click the "Generate Question Paper" button to receive a dynamically generated question paper.
+
+### Files:
+
+- **index.js:** Node.js server code.
+- **question.js:** Sample question store in JSON format.
+- **public/index.html:** HTML form for user input and displaying the generated question paper.
+
+### Customization:
 
 Feel free to customize the question store (question.js) by adding more questions or modifying existing ones. The application currently supports questions with fields like question, subject, topic, difficulty, and marks.
 
-Additional Features:
+### Additional Features:
 
 - The generated question paper is dynamically shuffled and trimmed to match the specified total marks.
 - Error handling for invalid user input.
 
-Author:
+### Author:
 
 Your Name
 
-License:
+### License:
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for
