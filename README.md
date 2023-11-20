@@ -16,6 +16,13 @@ cd question-paper-generator
 4. **Install Dependencies:**
 npm install
 
+### Demo
+
+https://github.com/shravan-das/Reelo-Assignment/assets/100745475/205194ff-506b-47dc-bfb1-8aa2f9a9a645
+
+
+
+
 ### Usage:
 
 1. **Start the Application:**
