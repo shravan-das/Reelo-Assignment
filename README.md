@@ -6,30 +6,21 @@
    - Download and install Node.js from [nodejs.org](https://nodejs.org).
 
 2. **Clone the Repository:**
-git clone https://github.com/your-username/question-paper-generator.git
-
-markdown
-Copy code
+git clone https://github.com/shravan-das/Reelo-Assignment.git
 
 3. **Navigate to the Project Directory:**
 cd question-paper-generator
 
-markdown
-Copy code
+
 
 4. **Install Dependencies:**
 npm install
-
-markdown
-Copy code
 
 ### Usage:
 
 1. **Start the Application:**
 npm start
 
-markdown
-Copy code
 This will start the server on http://localhost:3000.
 
 2. **Access the Generator:**
@@ -61,8 +52,5 @@ Feel free to customize the question store (question.js) by adding more questions
 
 ### Author:
 
-Your Name
+Shravan Das
 
-### License:
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for
