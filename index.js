@@ -7,7 +7,7 @@ const questionStore = require('./question');
 
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public')); // Serve HTML and other static files from the 'public' directory
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/index.html');
