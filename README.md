@@ -1,40 +1,56 @@
-Navigate to the project directory:
+Question Paper Generator
 
-bash
-Copy code
-cd question-paper-generator
-Install dependencies:
+Setup:
 
-bash
-Copy code
-npm install
-Usage
-Start the application:
+1. Install Node.js:
+   - Download and install Node.js from nodejs.org.
 
-bash
-Copy code
-npm start
-This will start the server on http://localhost:3000.
+2. Clone the Repository:
+   git clone https://github.com/your-username/question-paper-generator.git
 
-Open your web browser and go to http://localhost:3000 to access the Question Paper Generator.
+3. Navigate to the Project Directory:
+   cd question-paper-generator
 
-Fill in the form with the required information:
+4. Install Dependencies:
+   npm install
 
-Total Marks
-Easy Percentage
-Medium Percentage
-Hard Percentage
-Click the "Generate Question Paper" button to receive a dynamically generated question paper.
+Usage:
 
-Files
-index.js: Node.js server code.
-question.js: Sample question store in JSON format.
-public/index.html: HTML form for user input and displaying the generated question paper.
-Customization
+1. Start the Application:
+   npm start
+   This will start the server on http://localhost:3000.
+
+2. Access the Generator:
+   Open your web browser and go to http://localhost:3000 to access the Question Paper Generator.
+
+3. Fill in the Form:
+   - Total Marks
+   - Easy Percentage
+   - Medium Percentage
+   - Hard Percentage
+
+4. Generate Question Paper:
+   Click the "Generate Question Paper" button to receive a dynamically generated question paper.
+
+Files:
+
+- index.js: Node.js server code.
+- question.js: Sample question store in JSON format.
+- public/index.html: HTML form for user input and displaying the generated question paper.
+
+Customization:
+
 Feel free to customize the question store (question.js) by adding more questions or modifying existing ones. The application currently supports questions with fields like question, subject, topic, difficulty, and marks.
 
-Additional Features
-The generated question paper is dynamically shuffled and trimmed to match the specified total marks.
-Error handling for invalid user input.
-Author
+Additional Features:
+
+- The generated question paper is dynamically shuffled and trimmed to match the specified total marks.
+- Error handling for invalid user input.
+
+Author:
+
 Your Name
+
+License:
+
+This project is licensed under the MIT License - see the LICENSE file for details.
